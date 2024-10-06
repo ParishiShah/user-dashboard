@@ -1,0 +1,16 @@
+{
+  "user": {
+    "name": "Parishi Shah",
+    "email": "pari@cp.com"
+  },
+  "subscriptions": [
+    { "id": 1, "name": "Basic Plan", "status": "Active" },
+    { "id": 2, "name": "Pro Plan", "status": "Active" },
+    { "id": 3, "name": "Enterprise Plan", "status": "Inactive" }
+  ],
+  "notifications": [
+    "Your Basic Plan subscription will renew soon.",
+    "Payment for Pro Plan failed.",
+    "Enterprise Plan has been canceled."
+  ]
+}

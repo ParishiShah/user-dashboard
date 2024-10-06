@@ -1,0 +1,42 @@
+$white: #fff;
+$lightWhite: #f0f0f0;
+$light-grey: #e6e7e9;
+$light-bg: #818186;
+$dark-bg: #3c38ce;
+$light-blur-bg: #a5a5a5;
+$dark-blur-bg: #4a4de6;
+$lightBlueBg: #007bff;
+$darkBlueBg: #0056b3;
+$lightestGray: #eee;
+
+.light {
+  background-color: $light-bg;
+  .sidebar {
+    .account-info,
+    ul li:hover {
+      background-color: $light-blur-bg;
+    }
+  }
+  .openbtn {
+    background-color: $light-blur-bg;
+  }
+  .bellIcon {
+    color: $light-bg;
+  }
+}
+
+.dark {
+  background-color: $dark-bg;
+  .sidebar {
+    .account-info,
+    ul li:hover {
+      background-color: $dark-blur-bg;
+    }
+  }
+  .openbtn {
+    background-color: $dark-blur-bg;
+  }
+  .bellIcon {
+    color: $dark-bg;
+  }
+}
