@@ -1,7 +1,6 @@
-// src/components/UserInfo.test.js
 import React from 'react';
 import { render, screen } from '@testing-library/react';
-import '@testing-library/jest-dom/extend-expect'; 
+import '@testing-library/jest-dom'; 
 import UserInfo from './UserInfo';
 
 test('renders user name and email', () => {
@@ -10,7 +9,8 @@ test('renders user name and email', () => {
     email: 'john.doe@example.com',
   };
 
-  render(<UserInfo name={user.name} email={user.email} />);
+  // Pass user object as `userData` prop
+  render(<UserInfo userData={user} />);
 
   // Assertions
   const nameElement = screen.getByText(/john doe/i); 
