@@ -5,22 +5,22 @@ This project is a dashboard built with React that displays user information, act
 
 ## Prerequisites
 - Node.js (version 14 or later)
-- npm or Yarn package manager
+- npm package manager
 
 ## Getting Started
 
 ### 1. Clone the Repository
-git clone <repository-url>
-cd dashboard
+- git clone git@github.com:ParishiShah/user-dashboard.git
+- cd user-dashboard
 
 ### 2. Install Dependencies
-npm install
+- npm install
 
 ### 3. Start Development Server
-npm start
+- npm start
 
 ### 4. Run Test
-npm test
+- npm test
 
 ## API
 used mockData.json in public folder
