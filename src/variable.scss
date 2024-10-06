@@ -8,6 +8,8 @@ $dark-blur-bg: #4a4de6;
 $lightBlueBg: #007bff;
 $darkBlueBg: #0056b3;
 $lightestGray: #eee;
+$lightHomeBg: #f8f8fa;
+$darkHomeBg: #e0e0f1;
 
 .light {
   background-color: $light-bg;
@@ -22,6 +24,9 @@ $lightestGray: #eee;
   }
   .bellIcon {
     color: $light-bg;
+  }
+  .homeContainer {
+    background-color: $lightHomeBg;
   }
 }
 
@@ -38,5 +43,8 @@ $lightestGray: #eee;
   }
   .bellIcon {
     color: $dark-bg;
+  }
+  .homeContainer {
+    background-color: $darkHomeBg;
   }
 }
