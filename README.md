@@ -11,7 +11,7 @@ This project is a dashboard built with React that displays user information, act
 
 ### 1. Clone the Repository
 - git clone git@github.com:ParishiShah/user-dashboard.git
-- cd dashboard
+- cd user-dashboard
 
 ### 2. Install Dependencies
 - npm install
